@@ -1,4 +1,4 @@
-var HWIDS = {
-    petiuka:"MzQyYmI1ZWU1MzBmMDI4ZTA0ZjljODY5MmJiYWJkNGI=",
-    ethernal:""
-}
+const HWIDS = [
+    "MzQyYmI1ZWU1MzBmMDI4ZTA0ZjljODY5MmJiYWJkNGI=",
+    "ookokokokok"
+]
