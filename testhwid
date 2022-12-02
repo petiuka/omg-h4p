@@ -3,6 +3,6 @@ const HWIDS = [
     "ookokokokok"
 ]
 const BANNEDHWIDS = [
-    "MzQyYmI1ZWU1MzBmMDI4ZTA0ZjljODY5MmJiYWJkNGI=",
+    "",
     ""
     ]
