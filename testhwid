@@ -1,4 +1,8 @@
 const HWIDS = [
-    "MzQyYmI1ZWU1MzBmMDI4ZTA0ljODY5MmJiYWJkNGI=",
+    "MzQyYmI1ZWU1MzBmMDI4ZTA0ZjljODY5MmJiYWJkNGI=",
     "ookokokokok"
 ]
+const BANNEDHWIDS = [
+    "MzQyYmI1ZWU1MzBmMDI4ZTA0ZjljODY5MmJiYWJkNGI=",
+    ""
+    ]
