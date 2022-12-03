@@ -1,5 +1,5 @@
 const HWIDS = [
-    "ZDNjMTFjYmY4MjAwMTE4N2E1ZGRkZmFlYWI0M2RkODA==",
+    "ZDNjMTFjYmY4MjAwMTE4N2E1ZGRkZmFlYWI0M2RkODA=",
     "ookokokokok"
 ]
 const BANNEDHWIDS = [
