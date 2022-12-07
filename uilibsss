@@ -63,7 +63,7 @@ function GM_configInit(config, args) {
     config.css = {
       basic: [
         "#GM_config * { font-family: arial,tahoma,myriad pro,sans-serif; }",
-        "#GM_config { background: #0f0f0f; }",
+        "#GM_config { background: #0f0f0f; box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.051); }",
         "#GM_config input[type='radio'] { color: #006aff; margin-right: 8px; }",
         "#GM_config .indent40 { margin-left: 40%; }",
         "#GM_config .field_label { color: #006aff; font-size: 15px; font-weight: bold; margin-right: 6px; }",
