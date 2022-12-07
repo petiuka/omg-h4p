@@ -248,11 +248,6 @@ GM_configStruct.prototype = {
         section.appendChild((field.wrapper = field.toNode()));
       }
 
-      // Add save and close buttons
-      bodyWrapper.appendChild(create('div',
-        {id: configId + '_buttons_holder'},
-
-
 
       body.appendChild(bodyWrapper); // Paint everything to window at once
       config.center(); // Show and center iframe
