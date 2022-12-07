@@ -62,11 +62,12 @@ function GM_configInit(config, args) {
     config.title = 'User Script Settings';
     config.css = {
       basic: [
-        "#GM_config * { font-family: Arial, Helvetica, sans-serif; color: #1f6dff; }",
+        "#GM_config * { font-family: Arial, Helvetica, sans-serif; }",
+        "#GM_config * { color: #fff; }",
         "#GM_config { background: #141414; }",
         "#GM_config input[type='radio'] { margin-right: 8px; }",
         "#GM_config .indent40 { margin-left: 40%; }",
-        "#GM_config .field_label { text-align: center; font-size: 35px; font-weight: bold; margin-right: 6px; backgroundColor: #1f6dff; }",
+        "#GM_config .field_label { text-align: center; font-size: 35px; font-weight: bold; margin-right: 6px; color: #1f6dff; }",
         "#GM_config .radio_label { font-size: 15px; }",
         "#GM_config .block { display: block; }",
         "#GM_config .saveclose_buttons { margin: 16px 10px 10px; padding: 2px 12px; }",
@@ -203,7 +204,6 @@ GM_configStruct.prototype = {
       head.appendChild(
         create('style', {
         type: 'text/css',
-        color: #0062ff
         textContent: config.css.basic + config.css.stylish
       }));
 
