@@ -68,7 +68,7 @@ function GM_configInit(config, args) {
         "#GM_config .indent40 { margin-left: 40%; }",
         "#GM_config .field_label { color: #006aff; font-size: 15px; font-weight: bold; margin-right: 6px; }",
         "#GM_config .radio_label { color: #006aff; font-size: 15px; font-weight: bold; margin-right: 6px; }",
-        "#GM_config .block { display: block; box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.051); }",
+        "#GM_config .block { display: block; }",
         "#GM_config .saveclose_buttons { margin: 16px 10px 10px; padding: 2px 12px; }",
         "#GM_config .reset, #GM_config .reset a," +
           " #GM_config_buttons_holder { color: #006aff; font-size: 15px; font-weight: bold; text-align: right; }",
@@ -252,35 +252,7 @@ GM_configStruct.prototype = {
       bodyWrapper.appendChild(create('div',
         {id: configId + '_buttons_holder'},
 
-        create('button', {
-          id: configId + '_saveBtn',
-          textContent: 'Save',
-          title: 'Save settings',
-          className: 'saveclose_buttons',
-          onclick: function () { config.save() }
-        }),
 
-        create('button', {
-          id: configId + '_closeBtn',
-          textContent: 'Close',
-          title: 'Close window',
-          className: 'saveclose_buttons',
-          onclick: function () { config.close() }
-        }),
-
-        create('div',
-          {className: 'reset_holder block'},
-
-          // Reset link
-          create('a', {
-            id: configId + '_resetLink',
-            textContent: 'Reset to defaults',
-            href: '#',
-            title: 'Reset fields to default values',
-            className: 'reset',
-            onclick: function(e) { e.preventDefault(); config.reset() }
-          })
-      )));
 
       body.appendChild(bodyWrapper); // Paint everything to window at once
       config.center(); // Show and center iframe
