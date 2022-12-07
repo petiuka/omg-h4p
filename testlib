@@ -62,7 +62,7 @@ function GM_configInit(config, args) {
     config.title = 'User Script Settings';
     config.css = {
       basic: [
-        "#GM_config * { font-family: Arial, Helvetica, sans-serif; }",
+        "#GM_config * { font-family: Arial, Helvetica, sans-serif; color: #1f6dff;}",
         "#GM_config { background: #141414; }",
         "#GM_config input[type='radio'] { margin-right: 8px; }",
         "#GM_config .indent40 { margin-left: 40%; }",
