@@ -68,7 +68,7 @@ function GM_configInit(config, args) {
         "#GM_config .indent40 { margin-left: 40%; }",
         "#GM_config .field_label { color: #006aff; font-size: 15px; font-weight: bold; margin-right: 6px; }",
         "#GM_config .radio_label { color: #006aff; font-size: 15px; font-weight: bold; margin-right: 6px; }",
-        "#GM_config .block { display: block; }",
+        "#GM_config .block { display: block; box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.051); }",
         "#GM_config .saveclose_buttons { margin: 16px 10px 10px; padding: 2px 12px; }",
         "#GM_config .reset, #GM_config .reset a," +
           " #GM_config_buttons_holder { color: #006aff; font-size: 15px; font-weight: bold; text-align: right; }",
