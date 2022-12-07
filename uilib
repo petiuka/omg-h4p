@@ -72,7 +72,7 @@ function GM_configInit(config, args) {
         "#GM_config .saveclose_buttons { margin: 16px 10px 10px; padding: 2px 12px; }",
         "#GM_config .reset, #GM_config .reset a," +
           " #GM_config_buttons_holder { color: #006aff; font-size: 15px; font-weight: bold; text-align: right; }",
-        "#GM_config .config_header { font-size: 20pt; margin: 0; }",
+        "#GM_config .config_header { color: #006aff; font-weight: bold; font-size: 20pt; margin: 0; }",
         "#GM_config .config_desc, #GM_config .section_desc, #GM_config .reset { font-size: 9pt; }",
         "#GM_config .center { text-align: center; }",
         "#GM_config .section_header_holder { margin-top: 8px; }",
