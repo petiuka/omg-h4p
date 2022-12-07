@@ -203,7 +203,7 @@ GM_configStruct.prototype = {
       head.appendChild(
         create('style', {
         type: 'text/css',
-        color: '#0062ff'
+        color: #0062ff
         textContent: config.css.basic + config.css.stylish
       }));
 
