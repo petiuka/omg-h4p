@@ -1,3 +1,4 @@
+const version = 0.3
 const HWIDS = [
     "MTMzNw==1e1698859e229a54898620f47b04d64f",
     "ookokokokok",
