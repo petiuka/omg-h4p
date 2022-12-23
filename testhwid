@@ -3,7 +3,8 @@ const HWIDS = [
     "MTMzNw==1e1698859e229a54898620f47b04d64f",
     "ookokokokok",
     "cGV0eWFwaWRvcg==42b5c4f68814b3c6b72369dfeb1ca288",
-    "bnVsbA==1e1698859e229a54898620f47b04d64f"
+    "bnVsbA==1e1698859e229a54898620f47b04d64f",
+    "YWQ=1e1698859e229a54898620f47b04d64f"
 ]
 const BANNEDHWIDS = [
     ]
