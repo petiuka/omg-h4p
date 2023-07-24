@@ -9,7 +9,7 @@
 /* <-- Constants --> */
 console.log("im gay")
 const criteria = {
-    regions: ['FRA', 'DAL', 'SV', 'BHN', 'BRZ', 'SIN','MBI', 'SYD', 'AFR'],
+    regions: ['FRA'],
     gameModes: ['FFA', 'Kranked FFA', 'Bighead FFA', 'Deposit FFA'],
     minPlayers: 5,
     minRemainingTime: 170,
